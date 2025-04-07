@@ -1,0 +1,73 @@
+body {
+    background: #0f2027;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+#maindiv {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+    animation: fadeIn 1s ease-in-out;
+}
+  
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+  
+#skills-section {
+    background: rgba(255, 255, 255, 0.04);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.08);
+}
+  
+#skills-section h1 {
+    font-size: 36px;
+    color: cyan;
+    text-align: center;
+    margin-bottom: 25px;
+}
+  
+#skills-section p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+#skills-section ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+  
+#skills-section ul li {
+    background: rgba(255, 255, 255, 0.03);
+    border: 0.25px solid cyan;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+}
+  
+#skills-section ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px cyan;
+    background: rgba(255, 255, 255, 0.05);
+}
+  
