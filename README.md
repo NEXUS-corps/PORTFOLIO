@@ -1,4 +1,3 @@
-# PORTFOLIO
 # My Portfolio Website
 
 Welcome to my personal portfolio website! This project is a fully hand-coded, responsive portfolio that showcases who I am, my skills, and the projects I've worked on.
